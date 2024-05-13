@@ -31,6 +31,12 @@ class Calculator:
         print(f"Result of substraction is {float(a) - float(b)}!")
 
     @staticmethod
+    def very_very_important_complex_function():
+        # THIS FUNCTION IS SUPER IMPORTANT AND CANNOT BE RE-CODED
+        # YOU SHOULD NOT REMOVE THIS CODE
+        print("YOU CANNOT NOT REMOVE THIS FUNCTION")
+
+    @staticmethod
     def div(a: int | float, b: int | float):
         print("Please first number : ")
         a = input()
