@@ -31,6 +31,12 @@ class Calculator:
         print(f"Result of substraction is {float(a) - float(b)}!")
 
     @staticmethod
+    def very_very_fatal_function():
+        # THIS FUNCTION HAVE SUPER FATAL BUG IN IT.
+        # YOU SHOULD REMOVE THIS FUNCTION
+        print("YOU SHOULD REMOVE THIS FUNCTION")
+
+    @staticmethod
     def very_very_important_complex_function():
         # THIS FUNCTION IS SUPER IMPORTANT AND CANNOT BE RE-CODED
         # YOU SHOULD NOT REMOVE THIS CODE
