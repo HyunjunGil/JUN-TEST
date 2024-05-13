@@ -23,6 +23,22 @@ class Calculator:
         print(f"Result of substraction is {float(a) - float(b)}!")
 
     @staticmethod
+    def mul(a: int | float, b: int | float):
+        print("Please first number : ")
+        a = input()
+        print("Please second number : ")
+        b = input()
+        print(f"Result of substraction is {float(a) - float(b)}!")
+
+    @staticmethod
+    def div(a: int | float, b: int | float):
+        print("Please first number : ")
+        a = input()
+        print("Please second number : ")
+        b = input()
+        print(f"Result of substraction is {float(a) - float(b)}!")
+
+    @staticmethod
     def print_option():
         print("Choose Option")
         print("(1) ADDITION")
