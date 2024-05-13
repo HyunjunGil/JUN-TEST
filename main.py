@@ -43,6 +43,13 @@ class Calculator:
         print("YOU CANNOT NOT REMOVE THIS FUNCTION")
 
     @staticmethod
+    def very_very_noisy_annoying_heavy_function():
+        # THIS FUNCTION HAVE 500000 LINE IN IT AND CANNOT BE RE_CODED
+        # YOU CANNOT COPY-PASTE THIS FUNCTION TO RECOVER
+        # YOU SHOULD NOT REMOVE THIS CODE
+        print("THIS FUNCTION HAVE 500000 LINE OF CODE")
+
+    @staticmethod
     def div(a: int | float, b: int | float):
         print("Please first number : ")
         a = input()
